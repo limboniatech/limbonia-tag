@@ -28,21 +28,21 @@ trait Tag
   /**
    * Hash containing the tag's style(s), if there are any
    *
-   * @var string $hStyle
+   * @var array $hStyle
    */
   protected $hStyle = [];
 
   /**
    * Array containing the tag's class(es), if there are any
    *
-   * @var string $aClass
+   * @var array $aClass
    */
   protected $aClass = [];
 
   /**
    * Hash containing the tags parameters if there are any, including events and their handlers
    *
-   * @var string $hParam
+   * @var array $hParam
    */
   protected $hParam = [];
 
